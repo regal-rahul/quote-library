@@ -1,12 +1,13 @@
 let allQuote = require('./methods/allQuote');
 let randomQuote = require('./methods/randomQuote');
-let quoteByKeyword = require('./methods/searchByKeyword');
-let quoteByAuthor = require('./methods/searchByAuthor');
+let quoteByKeyword = require('./methods/quoteByKeyword');
+let quoteByAuthor = require('./methods/quoteByAuthor');
 
-const quotes = {
-    allQuote, randomQuote, quoteByKeyword, quoteByAuthor,
-    quoteByAuthor: author => quoteByAuthor ( author ),
-    quoteByKeyword: keyword => quoteByKeyword ( keyword ),
-}
+const quotes = {}
+
+quotes.allQuote = allQuote;
+quotes.randomQuote = randomQuote;
+quotes.quoteByAuthor = quoteByAuthor;
+quotes.quoteByKeyword = quoteByKeyword;
 
 module.exports = quotes
