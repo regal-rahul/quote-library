@@ -10,7 +10,7 @@ Install quote-library with npm
 
 ## Features
 
-- This Quote library is a classic combination of 1500+ diffrent types of Quotes.
+- This Quote library is a classic combination of 1500+ different types of Quotes.
 - Random Quote - It can be used to generate a random Quote from the collection.
 - Quote by Author - You can find Quote by specifying Author name.
 - Quote by Keyword - You can find Quote by any particular keyword.
@@ -60,8 +60,8 @@ If Quotes are not available in specified quantity according to **count**. You wi
 | ------------- | ----------------- | ---------------- | ---------------------------------------------------------------------------------- |
 | allQuotes()   | Array of Objects  | `null`           | Returns all quotes data including "quoteText", "quoteAuthor".                      |
 | randomQuote() | Object ( single ) | `null`           | Returns a Random quote from the quotes library.                                    |
-| quoteAuthor() | Array of Objects  | `null`, `number` | Returns all matched quotes by Author name, and specified number of matched result. |
-| quoteAuthor() | Array of Objects  | `null`, `number` | Returns all matched quotes by keyword, and specified number of matched result .    |
+| quoteAuthor() | Array of Objects  | `string`, `number`(optional) | Returns all matched quotes by Author name, and specified number of matched result. |
+| quoteAuthor() | Array of Objects  | `string`, `number`(optional) | Returns all matched quotes by keyword, and specified number of matched result .    |
 
 ## NOTE
 
@@ -73,7 +73,7 @@ The Quotes collection might increase with future updates.
 
 ```js
 var quotes = require("quote-library");
-console.log(quotes.quoteByAuthor("Buddha", 2));
+console.log(quotes.quoteByAuthor("Buddha", 2)); // second parameter is optional
 
 /**
 [
@@ -100,7 +100,7 @@ console.log(quotes.randomQuote());
 
 ```js
 var quotes = require("quote-library");
-console.log(quotes.quoteByKeyword("success", 2));
+console.log(quotes.quoteByKeyword("success", 2)); // second parameter is optional
 
 /**
 [
