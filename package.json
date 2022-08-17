@@ -1,6 +1,6 @@
 {
   "name": "quote-library",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This is a primary version of a Quote API, which gives quotes from database to the user according to the request made to the API.",
   "main": "index.js",
   "scripts": {
