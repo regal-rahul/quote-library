@@ -7,10 +7,12 @@ const quoteByKeyword = (keyword, count = 1607) => {
     data?.forEach(item => {
         if (item.quoteText &&
             (item.quoteText).toLowerCase().includes(str)) {
-            list.push({
-                quote: item.quoteText,
-                author: item.quoteAuthor
-            })
+            if (list.length < count) {
+                list.push({
+                    quote: item.quoteText,
+                    author: item.quoteAuthor
+                })
+            }
         }
         else if (item.quoteAuthor &&
             (item.quoteAuthor).toLowerCase().includes(str)) {
