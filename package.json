@@ -1,0 +1,26 @@
+{
+  "name": "quote-library",
+  "version": "0.0.1",
+  "description": "This is a primary version of a Quote API, which gives quotes from database to the user according to the request made to the API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/regal-rahul/quote-library.git"
+  },
+  "keywords": [
+    "quotes",
+    "random quotes",
+    "quotes api",
+    "quotes package",
+    "quotes by author"
+  ],
+  "author": "regal-rahul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/regal-rahul/quote-library/issues"
+  },
+  "homepage": "https://github.com/regal-rahul/quote-library#readme"
+}
