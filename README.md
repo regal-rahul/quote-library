@@ -124,7 +124,7 @@ console.log(quotes.quoteByKeyword("success", 2));
 
 [![GITHUB REPOSITORY](https://img.shields.io/badge/GITHUB_REPOSITORY-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/regal-rahul/quote-library)
 
-[![NPM PACKAGE](https://img.shields.io/badge/NPM_PACKAGE-0A66C2?style=for-the-badge&logo=npm&logoColor=white)]()
+[![NPM PACKAGE](https://img.shields.io/badge/NPM_PACKAGE-0A66C2?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/quote-library)
 
 ## License
 
