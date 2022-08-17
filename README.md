@@ -2,7 +2,7 @@
 
 ## Installation
 
-Install my-project with npm
+Install quote-library with npm
 
 ```bash
   npm install quote-library
