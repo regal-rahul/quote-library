@@ -131,4 +131,3 @@ console.log(quotes.quoteByKeyword("success", 2));
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Free to use, made by [Regal-Rahul](https://github.com/regal-rahul)
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
