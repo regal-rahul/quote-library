@@ -56,12 +56,12 @@ If Quotes are not available in specified quantity according to **count**. You wi
 
 ## Functions
 
-| Function Name | Returns           | Arguments        | Description                                                                        |
-| ------------- | ----------------- | ---------------- | ---------------------------------------------------------------------------------- |
-| allQuotes()   | Array of Objects  | `null`           | Returns all quotes data including "quoteText", "quoteAuthor".                      |
-| randomQuote() | Object ( single ) | `null`           | Returns a Random quote from the quotes library.                                    |
-| quoteAuthor() | Array of Objects  | `string`, `number`(optional) | Returns all matched quotes by Author name, and specified number of matched result. |
-| quoteAuthor() | Array of Objects  | `string`, `number`(optional) | Returns all matched quotes by keyword, and specified number of matched result .    |
+| Function Name    | Returns           | Arguments                    | Description                                                                        |
+| ---------------- | ----------------- | ---------------------------- | ---------------------------------------------------------------------------------- |
+| allQuotes()      | Array of Objects  | `null`                       | Returns all quotes data including "quoteText", "quoteAuthor".                      |
+| randomQuote()    | Object ( single ) | `null`                       | Returns a Random quote from the quotes library.                                    |
+| quoteByAuthor()  | Array of Objects  | `string`, `number`(optional) | Returns all matched quotes by Author name, and specified number of matched result. |
+| quoteByKeyword() | Array of Objects  | `string`, `number`(optional) | Returns all matched quotes by keyword, and specified number of matched result .    |
 
 ## NOTE
 
